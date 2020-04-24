@@ -12,9 +12,11 @@ while inner_counter < src[counter].length do
 
 if src[counter][inner_counter].even?
   puts src[counter]
-        end
-      end
-    end
+end
 
+  inner_counter += 1
+      end
+counter += 1
+  end
 end
 
