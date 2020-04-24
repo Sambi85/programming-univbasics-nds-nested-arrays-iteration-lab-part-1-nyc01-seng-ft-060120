@@ -9,7 +9,7 @@ inner_counter = 0
 
 while inner_counter < src[counter].length do
 
-if src[counter] == src[counter]%2
+if src[counter].even
   puts src[counter]
         end
       end
